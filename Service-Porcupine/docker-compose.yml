@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  service-porcupine:
+    image: ${DOCKER_REGISTRY-}serviceporcupine
+    build:
+      context: .
+      dockerfile: Dockerfile
