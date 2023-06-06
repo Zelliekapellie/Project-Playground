@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Porcupine3API.props" />
+</Project>

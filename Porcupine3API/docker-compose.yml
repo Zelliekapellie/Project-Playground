@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  porcupine3api:
+    image: ${DOCKER_REGISTRY-}porcupine3api
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+networks:
+  my-network:
+    external: true
